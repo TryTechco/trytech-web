@@ -70,7 +70,7 @@
                 "className":"fa fa-profilelink"
               }
             ],
-            "image": "./images/member/randy_bw.JPG"
+            "image": "./images/member/resized/randy_bw.JPG"
           },
           {
             "name": "Wei-Ting, CHIEN",
@@ -88,7 +88,7 @@
                 "className":"fa fa-github"
               }
             ],
-            "image": "./images/member/wt_bw.JPG"
+            "image": "./images/member/resized/wt_bw.JPG"
           },
           {
             "name": "Zi-Hao, LIN",
@@ -111,7 +111,7 @@
                 "className":"fa fa-linkedin"
               }
             ],
-            "image": "./images/member/Jeff_bw.JPG"
+            "image": "./images/member/resized/Jeff_bw.JPG"
           },
           {
             "name": "Shun-Hsiang, HSU",
@@ -129,7 +129,7 @@
                 "className":"fa fa-github"
               }
             ],
-            "image": "./images/member/shh_bw_1.JPG"
+            "image": "./images/member/resized/shh_bw_1.JPG"
           },
           {
             "name": "Bo-Kai, HUANG",
@@ -152,7 +152,7 @@
                 "className":"fa fa-profilelink"
               }
             ],
-            "image": "./images/member/roy_bw.JPG"
+            "image": "./images/member/resized/roy_bw.JPG"
           },
           {
             "name": "Wei, HAN",
@@ -175,7 +175,7 @@
                 "className":"fa fa-linkedin"
               }
             ],
-            "image": "./images/member/wh_bw.JPG"
+            "image": "./images/member/resized/wh_bw.JPG"
           }
         ]
       }
@@ -332,7 +332,7 @@
                 "className":"fa fa-profilelink"
               }
             ],
-            "image": "./images/member/randy_bw.JPG"
+            "image": "./images/member/resized/randy_bw.JPG"
           },
           {
             "name": "Wei-Ting, CHIEN",
@@ -350,7 +350,7 @@
                 "className":"fa fa-github"
               }
             ],
-            "image": "./images/member/wt_bw.JPG"
+            "image": "./images/member/resized/wt_bw.JPG"
           },
           {
             "name": "Zi-Hao, LIN",
@@ -373,7 +373,7 @@
                 "className":"fa fa-linkedin"
               }
             ],
-            "image": "./images/member/Jeff_bw.JPG"
+            "image": "./images/member/resized/Jeff_bw.JPG"
           },
           {
             "name": "Shun-Hsiang, HSU",
@@ -391,7 +391,7 @@
                 "className":"fa fa-github"
               }
             ],
-            "image": "./images/member/shh_bw_1.JPG"
+            "image": "./images/member/resized/shh_bw_1.JPG"
           },
           {
             "name": "Bo-Kai, HUANG",
@@ -414,7 +414,7 @@
                 "className":"fa fa-profilelink"
               }
             ],
-            "image": "./images/member/roy_bw.JPG"
+            "image": "./images/member/resized/roy_bw.JPG"
           },
           {
             "name": "Wei, HAN",
@@ -437,7 +437,7 @@
                 "className":"fa fa-linkedin"
               }
             ],
-            "image": "./images/member/wh_bw.JPG"
+            "image": "./images/member/resized/wh_bw.JPG"
           }
         ]
       }
