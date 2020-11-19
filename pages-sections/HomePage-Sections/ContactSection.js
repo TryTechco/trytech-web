@@ -89,7 +89,7 @@ export default function ContactSection(props) {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        <GridItem cs={12} sm={12} md={8}>
+        <GridItem cs={12} sm={12} md={12}>
           <h2 className={classes.title}>{props.data.contactus}</h2>
           <h4 className={classes.description}>
             {props.data.contactmessage}
@@ -148,14 +148,14 @@ export default function ContactSection(props) {
                   onChange: handleOnChange
                 }}
               />
-              <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                <Button type="submit" color="primary" onClick={handleSubmit}>{props.data.send}</Button>
-              </GridItem>
-              <GridItem xs={12} sm={12} md={12} className={classes.textCenter}>
-                {sentMessage}
-              </GridItem>
             </GridContainer>
           </form>
+        </GridItem>
+        <GridItem container xs={12} sm={12} md={4} className={classes.textCenter} justify="center">
+          <Button type="submit" color="primary" onClick={handleSubmit}>{props.data.send}</Button>
+        </GridItem>
+        <GridItem xs={12} sm={12} md={12} className={classes.textCenter}>
+          {sentMessage}
         </GridItem>
       </GridContainer>
     </div>

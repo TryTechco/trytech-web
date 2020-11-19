@@ -98,15 +98,15 @@ export default function FullWidthTabs(props) {
           <Tab className={classes.tab} label={props.data[2].name} {...a11yProps(2)} />
         </Tabs>
       </AppBar>
-      <SwipeableViews
+      {/* <SwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={value}
         onChangeIndex={handleChangeIndex}
-      >
+      > */}
         <TabPanel value={value} index={0} dir={theme.direction} data={props.data[0].projects} />
         <TabPanel value={value} index={1} dir={theme.direction} data={props.data[1].projects} />
         <TabPanel value={value} index={2} dir={theme.direction} data={props.data[2].projects} />
-      </SwipeableViews>
+      {/* </SwipeableViews> */}
     </div>
   );
 }
