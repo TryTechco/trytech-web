@@ -1,7 +1,7 @@
 {
-  "name": "next-material-kit",
+  "name": "trytech",
   "version": "1.1.0",
-  "description": "NextJS Version of Material Kit React by Creative Tim (https://creative-tim.com)",
+  "description": "TryTech",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/nextjs-material-kit.git"
+    "url": "git+https://github.com/TryTechco/trytech-web.git"
   },
   "keywords": [
     "next",
@@ -26,12 +26,8 @@
     "material-kit-react",
     "next-material-kit"
   ],
-  "author": "Creative Tim",
+  "author": "Randy Liu",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/creativetimofficial/nextjs-material-kit/issues"
-  },
-  "homepage": "https://demos.creative-tim.com/nextjs-material-kit",
   "dependencies": {
     "@material-ui/core": "4.9.13",
     "@material-ui/icons": "4.9.1",
