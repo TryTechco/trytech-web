@@ -2,11 +2,11 @@
   "name": "trytech",
   "version": "1.1.0",
   "description": "TryTech",
-  "main": "pages/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
-    "build": "next build",
+    "build": "build": "next build && next export",
     "start": "next start",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
   },
