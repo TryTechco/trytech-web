@@ -13,7 +13,7 @@ class MyDocument extends Document {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <meta name="theme-color" content="#000000" />
-          <meta property="og:title" content="TryTech"/>
+          <meta property="og:title" content="TryTech | 嘗試科技"/>
           <meta property="og:url" content="https://www.trytech.com.tw/"></meta>
           <meta id="keywords" name="keywords" content="新創團隊,專業,經驗足夠,年輕工程師,資訊,土木,嘗試,機器學習,深度學習,網頁架設,平台架設,APP開發,資料庫管理,BIM,二次開發,參數化設計,人工智慧,全端開發,建築資訊塑模,物聯網,營建產業,專屬介面,架設後台,完善操作,客製化服務,影像辨識,專業服務,台北市,大安區,嘗試科技"></meta>
           <meta name="description" content="TryTech是個由跨足資訊與土木領域的年輕工程師組成的新創團隊，熱愛科技，樂於嘗試不同可能。我們致力於發展機器學習、深度學習的各式應用，熟悉網頁平台架設、APP開發、資料庫管理等技術，有豐富BIM軟體二次開發、參數化設計經驗。針對您的需求，我們為您提供合適的技術服務。只要您有想法，讓我們替您實現。"></meta>
