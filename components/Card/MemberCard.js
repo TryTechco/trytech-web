@@ -35,7 +35,7 @@ export default function MemberCard(props) {
   return (
     <Card plain>
         <GridItem xs={12} sm={12} md={8} className={classes.itemGrid}>
-            <img src={image} alt="..." className={imageClasses} />
+            <img src={image} alt={name + " " + chinesename} title={name + " " + chinesename} className={imageClasses} />
         </GridItem>
         <GridItem xs={12} sm={12} md={12} className={classes.itemGrid}>
             <h4 className={classes.cardTitle}>
