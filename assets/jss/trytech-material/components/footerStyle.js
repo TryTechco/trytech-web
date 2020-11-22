@@ -1,4 +1,4 @@
-import { container, primaryColor } from "assets/jss/nextjs-material-kit.js";
+import { container, darkblueColor } from "assets/jss/nextjs-material-kit.js";
 
 const footerStyle = {
   block: {
@@ -17,7 +17,7 @@ const footerStyle = {
     display: "block"
   },
   right: {
-    padding: "15px 0",
+    // padding: "15px 0",
     margin: "0",
     float: "right!important"
   },
@@ -29,9 +29,12 @@ const footerStyle = {
     position: "relative"
   },
   a: {
-    color: primaryColor,
+    color: darkblueColor,
     textDecoration: "none",
-    backgroundColor: "transparent"
+    backgroundColor: "transparent",
+    "&:hover,&:focus": {
+      color: "#FFFFFF"
+    }
   },
   footerWhiteFont: {
     "&,&:hover,&:focus": {

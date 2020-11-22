@@ -29,6 +29,10 @@ export default function Footer(props) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
+        <div className={classes.left}>
+          Logo is designed by 
+          <a className={classes.a} href="mailto:rachelkuo0127@gmail.com"> @Rachel</a>
+        </div>
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()} , TryTech
         </div>
