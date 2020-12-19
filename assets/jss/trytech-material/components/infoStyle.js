@@ -42,8 +42,8 @@ const infoStyle = {
     color: grayColor
   },
   icon: {
-    width: "36px",
-    height: "36px"
+    // width: "36px",
+    height: "50px"
   },
   descriptionWrapper: {
     color: grayColor,

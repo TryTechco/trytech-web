@@ -190,6 +190,7 @@
           "projects":[
             {
               "title":"Computer Vision",
+              "icon": "/images/icon/cv.png",
               "category":"Artificial Intelligence",
               "image":"https://i.imgur.com/WVLeKNX.png",
               "description": "Three main services are provided: object detection, object tracking, and image segmentation. Object detection and tracking aim to recognize the object of interest in videos and further track them. Image segmentation partitions similar pixels into segments to locate objects or boundaries. We leverage computer vision, machine learning, and deep learning approaches to perform the services. The input resources for the three services could be CCTV, videos, or simply an image, and numerous applications and analysis can be conducted based on them.",
@@ -197,6 +198,7 @@
             },
             {
               "title":"Data Science",
+              "icon": "/images/icon/ds.png",
               "category":"Artificial Intelligence",
               "image":"https://i.imgur.com/7Ndeokj.png",
               "description": "TryTech provides data science solutions, including data processing, feature engineering, prediction and anomaly inspection. Data can be leveraged to not only identify certain patterns to predict future conditions, but detect outliers. Based on the analysis, it is possible to better formulate marketing strategies, make improvement, and increase profit accordingly.",
@@ -204,6 +206,7 @@
             },
             {
               "title":"Deploy & Pipeline",
+              "icon": "/images/icon/dp.png",
               "category":"Artificial Intelligence",
               "image":"https://i.imgur.com/7Ndeokj.png",
               "description": "To reach your idea, TryTech can not only deploy artificial models on clouds or personal hosts, but design reliable data pipeline. Based on the above, any product can be continuously and smoothly served through websites or apps.",
@@ -217,6 +220,7 @@
           "projects":[
             {
               "title":"IoT",
+              "icon": "/images/icon/iot.png",
               "category":"Full Stack",
               "image":"https://i.imgur.com/vK4tk0a.png",
               "description": "While leveraging IoT services, data collecting and management becomes a critical issue. TryTech can help in integrating all custom APIs or data streaming services from IoT devices. By providing an visualization tool or platform, users can effortlessly grasp the current status of a specific device or the whole environment. In addition, database structure designing, building and management can all be handled by TryTech. With the IoT solutions provided by TryTech, making data-driven decisions can be easily achieved.",
@@ -224,6 +228,7 @@
             },
             {
               "title":"Platform",
+              "icon": "/images/icon/p.png",
               "category":"Full Stack",
               "image":"https://i.imgur.com/zyQhl7q.png",
               "description": "Building a web-based solution for data sharing or team coordination is what TryTech can offer. Every platform can be customized and tailored to clients’ needs. Software architectural style such as RESTful or GraphQL can be leveraged to provide better ability for extension and maintenance. While encountering authorization issue, industry-standard protocols like OAuth or other SaaS can be applied. TryTech’s web-based solutions ensure the ease of accessibility and support scalability. Each solution can be built on clouds or on-premises, but either way, it enhances the efficiency and convenience of managing data and coordination.",
@@ -231,6 +236,7 @@
             },
             {
               "title":"App",
+              "icon": "/images/icon/a.png",
               "category":"Full Stack",
               "image":"https://i.imgur.com/7wssq2t.png",
               "description": "Applications on portable devices can be handled by TryTech. The service involves the UI/UX of Apps, the database, and the connection to the backends, including open-source APIs. Moreover, both iOS and Android are supported.",
@@ -244,6 +250,7 @@
           "projects":[
             {
               "title":"Parametric Design",
+              "icon": "/images/icon/pd.png",
               "category":"BIM",
               "image":"https://i.imgur.com/DRNTqUI.png",
               "description": "For the construction industry, modelling and data processing are the time-consuming procedures in the life cycle of BIM. TryTech provides parametric design solutions in softwares like Dynamo and Grasshopper to save modelling time. The service can significantly facilitate the demostration, discussion, and coordination.",
@@ -251,6 +258,7 @@
             },
             {
               "title":"API Development",
+              "icon": "/images/icon/ad.png",
               "category":"BIM",
               "image":"https://i.imgur.com/60RHlNU.jpg",
               "description": "For BIM softwares widely used in the construction industry, like Autodesk Revit, TryTech provides API development solutions to customize diverse and flexible functions according to the user’s needs. In addition, TryTech also provideds solutions integrating BIM models into your websites or Apps through products like Autodesk Forge. With the integration, the applications of BIM becomes more extensive and promising.",
@@ -452,6 +460,7 @@
           "projects":[
             {
               "title":"電腦視覺",
+              "icon": "/images/icon/cv.png",
               "category":"Artificial Intelligence",
               "image":"https://i.imgur.com/WVLeKNX.png",
               "description": "TryTech提供三大影像辨識相關服務：物件偵測、物件追蹤、影像分割。TryTech採用電腦視覺、機器學習、深度學習等技術，從影像中辨識出目標物，並持續追蹤各移動物件。不論是圖片、錄影畫面、監視影像，都能透過此服務發展多項應用，或針對影像進行各式分析。",
@@ -459,6 +468,7 @@
             },
             {
               "title":"資料科學",
+              "icon": "/images/icon/ds.png",
               "category":"Artificial Intelligence",
               "image":"https://i.imgur.com/7Ndeokj.png",
               "description": "TryTech提供資料科學相關服務，包含數據處理、特徵工程、趨勢預測及異常檢測。針對企業的數據進行分析，從中找出特定趨勢，以預測未來發展，或於資料分布中找出離群值。此類服務有助於企業深入理解客群與收益狀況，藉此擬定行銷策略，以增加營收。",
@@ -466,6 +476,7 @@
             },
             {
               "title":"模型部署",
+              "icon": "/images/icon/dp.png",
               "category":"Artificial Intelligence",
               "image":"https://i.imgur.com/7Ndeokj.png",
               "description": "為企業的產品目標設計數據工作流、整合數據資料於雲端服務平台（如：GCP、 AWS）、提出資料應用架構圖，亦提供客製化服務，協助企業實現不同的商業構想。TryTech替您將模型部署於雲端或個人機器上，相容於網頁端與其他移動裝置，同時維護連線的穩定性，以提供全天候的服務。",
@@ -479,6 +490,7 @@
           "projects":[
             {
               "title":"IoT",
+              "icon": "/images/icon/iot.png",
               "category":"Full Stack",
               "image":"https://i.imgur.com/vK4tk0a.png",
               "description": "關於IoT設備的使用，TryTech提供資料蒐集、管理，與使用策略上的相關服務。TryTech專注於整合所有客戶端之應用程式介面或資料串流設備的資料流介面，並提供視覺化工具與平台，讓用戶清楚掌握各設備現況，進一步推測整體環境的狀態。此外，TryTech能替企業設計並架設資料庫，協助用戶進行後續管理，確保產品的整個生命週期均能運作流暢。此類服務不僅能讓企業的IoT設備發揮更好的效益，更有助於企業利用蒐集而來的資料做出更全面性的決策。",
@@ -486,6 +498,7 @@
             },
             {
               "title":"平台架設",
+              "icon": "/images/icon/p.png",
               "category":"Full Stack",
               "image":"https://i.imgur.com/zyQhl7q.png",
               "description": "TryTech致力於提供能強化資料共享、輔助團隊合作的平台服務，並能針對企業需求量身打造客製化方案。一般平台會採用RESTful、GraphQL等架構風格，或資料查詢規範來提升平台的兼容性、可維護性與延伸性，至於權限模組可透過OAuth或第三方軟體來進行架構。TryTech提供的平台架設服務能確保用戶操作便利性與未來擴充可能性，並可依需求部署於雲端或客戶端。",
@@ -493,6 +506,7 @@
             },
             {
               "title":"App",
+              "icon": "/images/icon/a.png",
               "category":"Full Stack",
               "image":"https://i.imgur.com/7wssq2t.png",
               "description": "TryTech亦提供行動裝置的應用程式開發服務，包含介面UI/UX、資料庫、及其與後端應用程式介面之串接。可開發平台包含iOS與Android.",
@@ -506,6 +520,7 @@
           "projects":[
             {
               "title":"參數化設計",
+              "icon": "/images/icon/pd.png",
               "category":"BIM",
               "image":"https://i.imgur.com/DRNTqUI.png",
               "description": "針對營建產業的塑模需求，TryTech提供參數化設計服務，於Dynamo、Grasshopper等軟體中開發塑模程式。透過此服務，用戶能大幅減少模型建置、資料處理與輸出所耗費之時間成本，並能達到快速展示、加速設計討論等效益。",
@@ -513,6 +528,7 @@
             },
             {
               "title":"API開發",
+              "icon": "/images/icon/ad.png",
               "category":"BIM",
               "image":"https://i.imgur.com/60RHlNU.jpg",
               "description": "針對營建產業廣泛使用之BIM軟體，如Autodesk Revit，TryTech提供二次開發之服務，透過軟體之應用程式介面客製化多元且彈性的功能，讓軟體的使用更加符合用戶需求。不僅如此，此服務可與平台開發服務相結合，例如藉由Autodesk Forge等產品，TryTech能於網頁平台替您打造模型瀏覽器，將BIM模型整合於您的網站或應用程式，大幅提升BIM應用的便利與廣泛。",

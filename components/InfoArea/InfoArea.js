@@ -12,7 +12,7 @@ const useStyles = makeStyles(styles);
 
 export default function InfoArea(props) {
   const classes = useStyles();
-  const { title, description, iconColor, vertical } = props;
+  const { title, icon, description, iconColor, vertical } = props;
   const iconWrapper = classNames({
     [classes.iconWrapper]: true,
     [classes[iconColor]]: true,
@@ -26,6 +26,7 @@ export default function InfoArea(props) {
     <div className={classes.infoArea}>
       <div className={classes.descriptionWrapper}>
         <h4 className={classes.title}>{title}</h4>
+        <img className={classes.icon} src={icon}/>
         <p className={classes.description}>{description}</p>
       </div>
     </div>
