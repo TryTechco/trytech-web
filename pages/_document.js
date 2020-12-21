@@ -20,9 +20,9 @@ class MyDocument extends Document {
           <meta itemProp="description" content="TryTech是個由跨足資訊與土木領域的年輕工程師組成的新創團隊，熱愛科技，樂於嘗試不同可能。我們致力於發展機器學習、深度學習的各式應用，熟悉網頁平台架設、APP開發、資料庫管理等技術，有豐富BIM軟體二次開發、參數化設計經驗。針對您的需求，我們為您提供合適的技術服務。只要您有想法，讓我們替您實現。"></meta>
           <meta property="og:description" content="TryTech是個由跨足資訊與土木領域的年輕工程師組成的新創團隊，熱愛科技，樂於嘗試不同可能。我們致力於發展機器學習、深度學習的各式應用，熟悉網頁平台架設、APP開發、資料庫管理等技術，有豐富BIM軟體二次開發、參數化設計經驗。針對您的需求，我們為您提供合適的技術服務。只要您有想法，讓我們替您實現。"></meta>
 
-          <meta name="image" content="https://i.imgur.com/wz0WfJa.png"></meta>
-          <meta property="og:image" content="https://i.imgur.com/wz0WfJa.png"></meta>
-          <meta itemProp="image" content="https://i.imgur.com/wz0WfJa.png"></meta>
+          <meta name="image" content="https://i.imgur.com/zVd1WrT.png"></meta>
+          <meta property="og:image" content="https://i.imgur.com/zVd1WrT.png"></meta>
+          <meta itemProp="image" content="https://i.imgur.com/zVd1WrT.png"></meta>
           
           <meta property="og:type" content="website"></meta>
           <link rel="shortcut icon" href={require("assets/img/logo/logo.png")} />

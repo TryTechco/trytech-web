@@ -6,8 +6,7 @@
       "slogan":"Trying is the only way to improve, as the whole civilization is built from trying.",
       "about":["TryTech consists of engineers specialized in computer aided engineering. With keen interest in pioneering technology, TryTech embraces every opportunity to make things happen. We provide customized services tailored to your needs, and we are looking forward to delivering your idea."],
       "logo":"/images/logo/logo.png",
-      "thumbnail":"/images/logo/1.png",
-      "image":"/images/about/ganache.png",
+      "thumbnail":"/images/logo/thumbnail.png",
       "bio":"bio ",
       "contact":{
         "contactus": "Contact Us",
@@ -276,8 +275,7 @@
       "slogan":"「嘗試」帶來進步，每項人類文明都是透過一次又一次的嘗試逐漸累積而成。",
       "about":["TryTech是個由跨足資訊與土木領域的年輕工程師組成的新創團隊，熱愛科技，樂於嘗試不同可能。針對您的需求，我們為您提供合適的技術服務。只要您有想法，讓我們替您實現。"],
       "logo":"/images/logo/logo.png",
-      "thumbnail":"/images/logo/1.png",
-      "image":"/images/about/ganache.png",
+      "thumbnail":"/images/logo/thumbnail.png",
       "bio":"bio ",
       "contact":{
         "contactus": "聯絡我們",
