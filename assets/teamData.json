@@ -72,6 +72,24 @@
             "image": "./images/member/resized/randy_bw.jpg"
           },
           {
+            "name": "Shun-Hsiang, HSU",
+            "chinesename": "許舜翔",
+            "skills": "Deep Learning Algorithms Design and Implementation, Image Processing, Data Analysis",
+            "social":[
+              {
+                "name":"email",
+                "url":"http://b02501030@gmail.com/",
+                "className":"fa fa-email"
+              },
+              {
+                "name":"github",
+                "url":"https://github.com/huhuman",
+                "className":"fa fa-github"
+              }
+            ],
+            "image": "./images/member/resized/shh_bw_1.jpg"
+          },
+          {
             "name": "Wei-Ting, CHIEN",
             "chinesename": "簡維廷",
             "skills": "Full-Stack Web Development, GIS, BIM",
@@ -111,24 +129,6 @@
               }
             ],
             "image": "./images/member/resized/Jeff_bw.jpg"
-          },
-          {
-            "name": "Shun-Hsiang, HSU",
-            "chinesename": "許舜翔",
-            "skills": "Deep Learning Algorithms Design and Implementation, Image Processing, Data Analysis",
-            "social":[
-              {
-                "name":"email",
-                "url":"http://b02501030@gmail.com/",
-                "className":"fa fa-email"
-              },
-              {
-                "name":"github",
-                "url":"https://github.com/huhuman",
-                "className":"fa fa-github"
-              }
-            ],
-            "image": "./images/member/resized/shh_bw_1.jpg"
           },
           {
             "name": "Bo-Kai, HUANG",
@@ -358,6 +358,24 @@
             "image": "./images/member/resized/randy_bw.jpg"
           },
           {
+            "name": "Shun-Hsiang, HSU",
+            "chinesename": "許舜翔",
+            "skills": "深度學習演算法設計與應用, 影像處理, 數據分析",
+            "social":[
+              {
+                "name":"email",
+                "url":"http://b02501030@gmail.com/",
+                "className":"fa fa-email"
+              },
+              {
+                "name":"github",
+                "url":"https://github.com/huhuman",
+                "className":"fa fa-github"
+              }
+            ],
+            "image": "./images/member/resized/shh_bw_1.jpg"
+          },
+          {
             "name": "Wei-Ting, CHIEN",
             "chinesename": "簡維廷",
             "skills": "網頁全端設計, GIS, BIM",
@@ -397,24 +415,6 @@
               }
             ],
             "image": "./images/member/resized/Jeff_bw.jpg"
-          },
-          {
-            "name": "Shun-Hsiang, HSU",
-            "chinesename": "許舜翔",
-            "skills": "深度學習演算法設計與應用, 影像處理, 數據分析",
-            "social":[
-              {
-                "name":"email",
-                "url":"http://b02501030@gmail.com/",
-                "className":"fa fa-email"
-              },
-              {
-                "name":"github",
-                "url":"https://github.com/huhuman",
-                "className":"fa fa-github"
-              }
-            ],
-            "image": "./images/member/resized/shh_bw_1.jpg"
           },
           {
             "name": "Bo-Kai, HUANG",
