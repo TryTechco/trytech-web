@@ -5,6 +5,8 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+import { Collapse, Divider, Typography } from "@material-ui/core";
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import styles from "assets/jss/trytech-material/components/infoStyle.js";
 
@@ -12,7 +14,8 @@ const useStyles = makeStyles(styles);
 
 export default function InfoArea(props) {
   const classes = useStyles();
-  const { title, icon, description, iconColor, vertical } = props;
+  const [expanded, setExpanded] = React.useState(false);
+  const { title, icon, description, services, iconColor, vertical } = props;
   const iconWrapper = classNames({
     [classes.iconWrapper]: true,
     [classes[iconColor]]: true,
@@ -27,7 +30,39 @@ export default function InfoArea(props) {
       <div className={classes.descriptionWrapper}>
         <h4 className={classes.title}>{title}</h4>
         <img className={classes.icon} src={icon}/>
-        <p className={classes.description}>{description}</p>
+        <div onMouseEnter={() => setExpanded(true)} onMouseLeave={() => setExpanded(false)} className={classes.services}>
+          {
+            services.map((s, index) => {
+              return <p key={index}>{s}</p>
+            })
+          }
+          <ExpandMoreIcon fontSize="small" color="action" />
+        </div>
+        <Collapse className={classes.collapseWrapper} in={expanded} timeout="auto" unmountOnExit>
+          <Divider />
+          <p className={classes.description}>{description}</p>
+        </Collapse>
+        {/* <div className={classes.cardContainer}>
+          <HoverCard
+            front={
+              <div className={classes.services}>
+                {
+                  services.map((s, index) => {
+                    return <p key={index}>{s}</p>
+                  })
+                }
+              </div>
+            }
+            back={
+              <div className={classes.backText}>
+                <p className={classes.description}>{description}</p>
+              </div>
+            }
+            animationSpeed={500}
+            height={200}
+            margin={10}
+          />
+        </div> */}
       </div>
     </div>
   );
@@ -38,9 +73,10 @@ InfoArea.defaultProps = {
 };
 
 InfoArea.propTypes = {
-  icon: PropTypes.object.isRequired,
+  icon: PropTypes.string.isRequired,
   title: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
   description: PropTypes.string.isRequired,
+  services: PropTypes.array.isRequired,
   iconColor: PropTypes.oneOf([
     "primary",
     "warning",

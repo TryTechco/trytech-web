@@ -5629,6 +5629,11 @@ react-onclickoutside@^6.5.0:
   resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-6.9.0.tgz#a54bc317ae8cf6131a5d78acea55a11067f37a1f"
   integrity sha512-8ltIY3bC7oGhj2nPAvWOGi+xGFybPNhJM0V1H8hY/whNcXgmDeaeoCMPPd8VatrpTsUWjb/vGzrmu6SrXVty3A==
 
+react-png-hovercard@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-png-hovercard/-/react-png-hovercard-1.0.3.tgz#f0736308b36fa20370a2e68dc7ef28b9f893afb9"
+  integrity sha512-fw+flQ7GpS9we0FYYrvKRyzE1W5sWYF2GA6YScvqWCGLYPt9tL2hFZsX3vdav183ynPHOV+0mpw68MH5GzcI+w==
+
 react-refresh@0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.1.tgz#5500506ad6fc891fdd057d0bf3581f9310abc6a2"

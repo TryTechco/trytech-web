@@ -53,9 +53,25 @@ const infoStyle = {
   description: {
     color: grayColor,
     overflow: "hidden",
-    margin: "10px",
     fontSize: "14px",
-    textAlign: "start"
+    textAlign: "start",
+    width: '100%',
+    flexDirection: 'column',
+    justifyContent: 'center'
+  },
+  services: {
+    color: primaryColor,
+    width: '100%',
+    overflow: "hidden",
+    marginTop: "10px",
+    fontSize: "14px",
+    fontWeight: 'bold',
+    textAlign: "start",
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    alignSelf: 'center'
   },
   iconWrapperVertical: {
     float: "none"
@@ -63,6 +79,17 @@ const infoStyle = {
   iconVertical: {
     width: "61px",
     height: "61px"
+  },
+  cardContainer: {
+    display: 'flex',
+  },
+  backText: {
+    backgroundColor: "#072643",
+    padding: "10px"
+  },
+  collapseWrapper: {
+    paddingLeft: "10px",
+    paddingRight: "10px"
   }
 };
 

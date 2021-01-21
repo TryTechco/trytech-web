@@ -66,7 +66,6 @@ class Contact extends Component {
         event.preventDefault()
 
         const mailinvalid = !(new RegExp(/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}/g).test(this.state.mailContent.Email));
-        console.log(mailinvalid)
         
         if(this.state.mailContent.Name === "" || mailinvalid || this.state.mailContent.Subject === "" || this.state.mailContent.Message === "")
         {

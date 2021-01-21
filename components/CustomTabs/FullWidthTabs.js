@@ -14,7 +14,6 @@ import Chat from "@material-ui/icons/Chat";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
-  console.log(props.data)
   return (
     <div
       role="tabpanel"
@@ -32,6 +31,7 @@ function TabPanel(props) {
                             <InfoArea
                             title={d.title}
                             description={d.description}
+                            services={d.services}
                             icon={d.icon}
                             iconColor="info"
                             vertical

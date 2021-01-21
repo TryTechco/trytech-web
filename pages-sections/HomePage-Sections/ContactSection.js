@@ -46,7 +46,6 @@ export default function ContactSection(props) {
     event.preventDefault()
 
     const mailinvalid = !(new RegExp(/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}/g).test(mailContent.Email));
-    console.log(mailinvalid)
     
     if(mailContent.Name === "" || mailinvalid || mailContent.Subject === "" || mailContent.Message === "")
     {
@@ -59,7 +58,7 @@ export default function ContactSection(props) {
     }
     else
     {
-        axios.post('https://nitamadermailcontroller.ngrok.io', {
+        axios.post('http://54.157.131.32:5000', {
             senderName: mailContent.Name,
             senderEmail: mailContent.Email,
             subject: mailContent.Subject,

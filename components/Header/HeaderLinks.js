@@ -35,11 +35,11 @@ export default function HeaderLinks(props) {
           buttonIcon={Language}
           dropdownList={[
             <a>
-              <a className={classes.dropdownLink} onClick={() => {props.changeLanguage("english")}}>English</a>
+              <a className={classes.dropdownLink} onClick={() => {props.changeLanguage("chinese")}}>繁體中文</a>
             </a>,
             <a>
-            <a className={classes.dropdownLink} onClick={() => {props.changeLanguage("chinese")}}>繁體中文</a>
-          </a>
+              <a className={classes.dropdownLink} onClick={() => {props.changeLanguage("english")}}>English</a>
+            </a>
           ]}
         />
       </ListItem>
