@@ -34,7 +34,7 @@ export default function Footer(props) {
           <a className={classes.a} href="mailto:rachelkuo0127@gmail.com"> @Rachel</a>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , TryTech
+          &copy; 2021 , TryTech
         </div>
       </div>
     </footer>
