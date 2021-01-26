@@ -54,7 +54,7 @@ export default function MemberCard(props) {
                     switch(social.name) {
                     case "email":
                         return <Avatar alt={name} key={index} className={classes.margin5}>
-                                <Link href={social.url}>
+                                <Link href={'mailto:' + social.url}>
                                     <MailIcon color="action" className={classes.small}/>
                                 </Link>
                             </Avatar>
