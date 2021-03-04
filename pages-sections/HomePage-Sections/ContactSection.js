@@ -13,7 +13,9 @@ import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/trytech-material/pages/sections/contactStyle.js";
 
-const axios = require('axios');
+import { useFormspark } from "@formspark/use-formspark";
+
+const FORMSPARK_FORM_ID = "sKnfCyfr";
 
 const useStyles = makeStyles(styles);
 
@@ -33,6 +35,10 @@ export default function ContactSection(props) {
   })
   const [mailSent, setMailSent] = useState(false)
   const [sentMessage, setSentMessage] = useState(<a className={classes.success}></a>)
+  const [submit, submitting] = useFormspark({
+    formId: FORMSPARK_FORM_ID,
+  });
+
 
   const handleOnChange = (event) => {
     var _mailContent = mailContent
@@ -42,7 +48,7 @@ export default function ContactSection(props) {
     setMailContent(_mailContent)
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault()
 
     const mailinvalid = !(new RegExp(/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}/g).test(mailContent.Email));
@@ -58,30 +64,25 @@ export default function ContactSection(props) {
     }
     else
     {
-        axios.post('http://54.157.131.32:5000', {
-            senderName: mailContent.Name,
-            senderEmail: mailContent.Email,
-            subject: mailContent.Subject,
-            message: mailContent.Message
-        })
-        .then(function (response) {
-            // handle success
-            console.log(response);
-            setMailSent(true)
-            setSentMessage(<a className={classes.success}>
-              {props.data.successMessage}
-            </a>)
-        })
-        .catch(function (error) {
-            // handle error
-            console.log(error);
-            setSentMessage(<a className={classes.failed}>
-              {props.data.failedMessage}
-            </a>)
-        })
-        .then(function () {
-            // always executed
+      try {
+        await submit({ 
+          senderName: mailContent.Name,
+          senderEmail: mailContent.Email,
+          subject: mailContent.Subject,
+          message: mailContent.Message
         });
+        setMailSent(true);
+        setSentMessage(<a className={classes.success}>
+          {props.data.successMessage}
+        </a>)
+      }
+      catch {
+        console.log(error);
+        setMailSent(false);
+        setSentMessage(<a className={classes.failed}>
+          {props.data.failedMessage}
+        </a>);
+      }
     }
 }
 

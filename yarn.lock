@@ -967,6 +967,13 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
+"@formspark/use-formspark@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@formspark/use-formspark/-/use-formspark-0.1.23.tgz#44ec62a606e615566df2b1df3605e7c4d371d885"
+  integrity sha512-50ezALR/HGcuqz898Z3CpiPHaKRrSB9Lfd1tH3QgKdwQKXoG13Qa4BqyEPbYzkEAh2zTvDcKADZxcJGmO+1yDQ==
+  dependencies:
+    whatwg-fetch "^3.6.1"
+
 "@material-ui/core@4.9.13":
   version "4.9.13"
   resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-4.9.13.tgz#024962bcdda05139e1bad17a1815bf4088702b15"
@@ -7017,6 +7024,11 @@ whatwg-fetch@>=0.10.0:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.4.1.tgz#e5f871572d6879663fa5674c8f833f15a8425ab3"
   integrity sha512-sofZVzE1wKwO+EYPbWfiwzaKovWiZXf4coEzjGP9b2GBVgQRLQUZ2QcuPpQExGDAW5GItpEm6Tl4OU5mywnAoQ==
+
+whatwg-fetch@^3.6.1:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz#dced24f37f2624ed0281725d51d0e2e3fe677f8c"
+  integrity sha512-bJlen0FcuU/0EMLrdbJ7zOnW6ITZLrZMIarMUVmdKtsGvZna8vxKYaexICWPfZ8qwf9fzNq+UEIZrnSaApt6RA==
 
 which-module@^2.0.0:
   version "2.0.0"
